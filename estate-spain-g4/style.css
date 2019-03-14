@@ -1,0 +1,75 @@
+/*
+CTC Separate Stylesheet
+Updated: 2019-03-13 09:40:24
+Theme Name: Real Estater Child
+Theme URI: https://theme404.com/downloads/real-estater/
+Template: real-estater
+Author: Theme 404
+Author URI: https://www.theme404.com/
+Description: Real Estater is a fresh and clean, modern and functional, versatile and sophisticated, readily responsive WordPress real estate theme.Real Estater supports static front page with dynamic sections like slider section, featured header image, about us section, team section , testimonials etc..
+Tags: custom-background,one-column,left-sidebar,right-sidebar,blog,featured-images,full-width-template,translation-ready
+Version: 1.0.6.1552470024
+*/
+
+/*Ændringer af faver på siden */
+/*background color på tema */
+.services-section .post-content-wrapper:hover .service-icon, input[type="reset"], input[type="button"], input[type="submit"], .back-to-top a, .box-button, .wp-caption-text, .widget_tag_cloud a:hover, .wpcf7-submit[type="submit"], .page-title-wrap, #bbpress-forums button:hover, .team-section .inline-social-icons li a:hover, .portfolio-gallery-menu li:hover, .site-footer input[type="reset"]:hover, .site-footer input[type="button"]:hover, .site-footer input[type="submit"]:hover, #testimonial-slider.owl-theme .owl-dots .owl-dot.active span, #testimonial-slider.owl-theme .owl-dots .owl-dot:hover span, .single-contact-detail:hover .contact-icon, .top-footer, .site-footer .widget-title::before, .rwspt-btn-business, .active-plan .rwspt-price-header, .load-button, .mean-container .mean-nav ul li a:hover, .site-header input.search-field, .site-header input.search-submit:hover, .heading .entry-title::before, #city-slider.owl-theme .owl-dots .owl-dot span, .inline-social-icons li a, .entry-footer .price, .mean-container a.meanmenu-reveal span, .portfolio-gallery-menu .filter.active, #property-slider .owl-prev, #property-slider .owl-next, .price-detail span, #agent-slider .owl-prev:hover, #agent-slider .owl-next:hover, .widget_search .search-submit, .widget-title::before, .page-title::before {
+	background-color: #89c4bd;
+}
+
+/*Border color*/
+.site-footer input[type="reset"]:hover, .site-footer input[type="button"]:hover, .site-footer input[type="submit"]:hover, .portfolio-gallery-menu li, .comment-list .children .avatar, .menu-top-menu-container ul ul li:hover ul, .menu-top-menu-container ul ul ul li:hover ul, .menu-top-menu-container ul ul ul ul li:hover ul, .menu-top-menu-container ul ul ul ul ul li:hover ul, .menu-top-menu-container ul li ul, input[type="text"]:focus, input[type="email"]:focus, input[type="search"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="date"]:focus, input[type="number"]:focus, textarea:focus, .single-team-wrapper:hover .team-author-content, blockquote, .box-button, .rwspt-btn-business, .load-button, .slider-thumbnail-img.active img {
+	border-color: #89c4bd;
+}
+
+/*Menu farve*/
+.menu-top-menu-container .menu-header-menu-container > ul > li > a, .menu-top-menu-container .menu-main-menu-container > ul > li > a:hover{
+	color: #89c4bd;
+}
+
+.ttb-author-designation, .ttb-single-testimonial-design2 .ttb-author-name a span, .about-us-section article:hover i, .counter-item:hover .counter-icon i, a:focus, a:active, a:hover, .breadcrumb, .breadcrumb a:hover, .site-title > a:hover, .current-item a, .entry-title a:hover, .entry-title a:focus, .entry-title a:active, .entry-meta a:hover, .entry-meta .cat-links a:hover, .tag-links > a:hover, .comment-meta a:hover, .reply a, .pagination a:hover, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, #wp_page_numbers li > a:hover, .wp-pagenavi li > a:hover, #main ul.default-wp-page li > a:hover, .widget > ul > li > span, .widget-title a:hover, .authore-description, .team-section .inline-social-icons li a, .portfolio-gallery-menu li, .site-footer a:hover, time, span.comments-link::before, span.date::before, .top-footer .social-links ul li a::before, .rwspt-price .rwspt-price-number, .rwspt-price-prefix, .site-header .fa-search:hover, .site-header .search-active, .calling-info .fa, .calling-info a:hover, .calling-info a:focus, .mean-container a.meanmenu-reveal, .service-section .post:hover .service-icon .fa, #agent-slider .owl-prev::before, #agent-slider .owl-next::before, .contact_details a:hover {
+	color:#000;
+}
+/* Menu fjerne telefonnummer*/
+.calling-info {
+	display:none;
+}
+/*sætter menuen til højre*/
+.navbar{
+ text-align:right;	
+}
+/*promotional section ændrer fra billede til fast farve*/
+.promotional-bar-section::before {
+	background-color: #e2e2e2;
+}
+.promotional-bar-content h3 {
+	color:#000;
+}
+p {
+	color: #000000;
+	font-size: 14px;
+	margin: 0 0 22px;
+	padding: 20 0;
+	line-height: 1.4;
+}
+.uagb-cta__content {
+    display: inline-block;
+	align-content: center;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.omtekst {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+img.wp-image-515 {
+	margin-bottom: 80px;
+}
+h2.entry-title {
+	font-size: 25px;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+div.wp-block-media-text__content {
+line-height: 1.4;
+}
